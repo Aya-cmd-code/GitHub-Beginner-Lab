@@ -30,7 +30,6 @@
         {
             this.btnEnter = new System.Windows.Forms.Button();
             this.lblName = new System.Windows.Forms.Label();
-            this.lblPrint = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.lblContact = new System.Windows.Forms.Label();
             this.txtContact = new System.Windows.Forms.TextBox();
@@ -38,7 +37,7 @@
             // 
             // btnEnter
             // 
-            this.btnEnter.Location = new System.Drawing.Point(107, 117);
+            this.btnEnter.Location = new System.Drawing.Point(108, 98);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.Size = new System.Drawing.Size(99, 43);
             this.btnEnter.TabIndex = 0;
@@ -54,14 +53,6 @@
             this.lblName.Size = new System.Drawing.Size(130, 20);
             this.lblName.TabIndex = 1;
             this.lblName.Text = "Enter your name:";
-            // 
-            // lblPrint
-            // 
-            this.lblPrint.AutoSize = true;
-            this.lblPrint.Location = new System.Drawing.Point(12, 178);
-            this.lblPrint.Name = "lblPrint";
-            this.lblPrint.Size = new System.Drawing.Size(0, 20);
-            this.lblPrint.TabIndex = 2;
             // 
             // txtName
             // 
@@ -90,11 +81,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 217);
+            this.ClientSize = new System.Drawing.Size(339, 157);
             this.Controls.Add(this.txtContact);
             this.Controls.Add(this.lblContact);
             this.Controls.Add(this.txtName);
-            this.Controls.Add(this.lblPrint);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.btnEnter);
             this.Name = "Form1";
@@ -108,7 +98,6 @@
 
         private System.Windows.Forms.Button btnEnter;
         private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.Label lblPrint;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label lblContact;
         private System.Windows.Forms.TextBox txtContact;

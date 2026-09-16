@@ -21,7 +21,7 @@ namespace StudentProfile
         {
             string name = txtName.Text;
             string contact = txtContact.Text;
-            lblPrint.Text = "Student Profile: " + name + " - " + contact;
+            MessageBox.Show($"Name: {name}\nContact: {contact}", "Student Profile");
         }
     }
 }
