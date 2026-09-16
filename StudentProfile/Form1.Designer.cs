@@ -30,13 +30,14 @@
         {
             this.btnEnter = new System.Windows.Forms.Button();
             this.lblName = new System.Windows.Forms.Label();
-            this.lblPrint = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
+            this.lblContact = new System.Windows.Forms.Label();
+            this.txtContact = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnEnter
             // 
-            this.btnEnter.Location = new System.Drawing.Point(110, 41);
+            this.btnEnter.Location = new System.Drawing.Point(108, 98);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.Size = new System.Drawing.Size(99, 43);
             this.btnEnter.TabIndex = 0;
@@ -49,17 +50,9 @@
             this.lblName.AutoSize = true;
             this.lblName.Location = new System.Drawing.Point(13, 13);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(132, 20);
+            this.lblName.Size = new System.Drawing.Size(130, 20);
             this.lblName.TabIndex = 1;
-            this.lblName.Text = "Enter Laboratory:";
-            // 
-            // lblPrint
-            // 
-            this.lblPrint.AutoSize = true;
-            this.lblPrint.Location = new System.Drawing.Point(62, 97);
-            this.lblPrint.Name = "lblPrint";
-            this.lblPrint.Size = new System.Drawing.Size(0, 20);
-            this.lblPrint.TabIndex = 2;
+            this.lblName.Text = "Enter your name:";
             // 
             // txtName
             // 
@@ -68,13 +61,30 @@
             this.txtName.Size = new System.Drawing.Size(168, 26);
             this.txtName.TabIndex = 3;
             // 
+            // lblContact
+            // 
+            this.lblContact.AutoSize = true;
+            this.lblContact.Location = new System.Drawing.Point(13, 59);
+            this.lblContact.Name = "lblContact";
+            this.lblContact.Size = new System.Drawing.Size(172, 20);
+            this.lblContact.TabIndex = 4;
+            this.lblContact.Text = "Enter Contact Number:";
+            // 
+            // txtContact
+            // 
+            this.txtContact.Location = new System.Drawing.Point(191, 56);
+            this.txtContact.Name = "txtContact";
+            this.txtContact.Size = new System.Drawing.Size(130, 26);
+            this.txtContact.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 141);
+            this.ClientSize = new System.Drawing.Size(339, 157);
+            this.Controls.Add(this.txtContact);
+            this.Controls.Add(this.lblContact);
             this.Controls.Add(this.txtName);
-            this.Controls.Add(this.lblPrint);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.btnEnter);
             this.Name = "Form1";
@@ -88,8 +98,9 @@
 
         private System.Windows.Forms.Button btnEnter;
         private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.Label lblPrint;
         private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label lblContact;
+        private System.Windows.Forms.TextBox txtContact;
     }
 }
 
