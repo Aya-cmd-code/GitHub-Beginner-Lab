@@ -19,7 +19,12 @@ namespace StudentProfile
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
-            if (txtEmail.Text == "student@school.edu" && txtPassword.Text == "Password")
+            if (string.IsNullOrWhiteSpace(txtEmail.Text) || string.IsNullOrWhiteSpace(txtPassword.Text))
+            {
+                MessageBox.Show("Please enter both your email and password.");
+                return; 
+            }
+            if (txtEmail.Text == "student@school.edu" && txtPassword.Text == "Password123")
             {
                 MessageBox.Show("Log in successful!");
             }
