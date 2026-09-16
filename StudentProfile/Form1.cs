@@ -19,8 +19,9 @@ namespace StudentProfile
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
-            string lab = txtName.Text;
-            lblPrint.Text = "Student Profile: " + lab;
+            string StudentName = txtName.Text;
+            string ContactNum = txtContactNo.Text;
+            lblPrint.Text = "Student Profile: " + StudentName + " - " + ContactNum;
         }
     }
 }
