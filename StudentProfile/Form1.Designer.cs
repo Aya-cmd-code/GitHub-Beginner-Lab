@@ -49,9 +49,9 @@
             this.lblName.AutoSize = true;
             this.lblName.Location = new System.Drawing.Point(13, 13);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(134, 20);
+            this.lblName.Size = new System.Drawing.Size(132, 20);
             this.lblName.TabIndex = 1;
-            this.lblName.Text = "Enter your name: ";
+            this.lblName.Text = "Enter Laboratory:";
             // 
             // lblPrint
             // 
