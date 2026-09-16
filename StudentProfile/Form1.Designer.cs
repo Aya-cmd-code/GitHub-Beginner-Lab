@@ -28,65 +28,65 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnEnter = new System.Windows.Forms.Button();
-            this.lblName = new System.Windows.Forms.Label();
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.lblContact = new System.Windows.Forms.Label();
-            this.txtContact = new System.Windows.Forms.TextBox();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.lblEmail = new System.Windows.Forms.Label();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.lblPassword = new System.Windows.Forms.Label();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // btnEnter
+            // btnLogin
             // 
-            this.btnEnter.Location = new System.Drawing.Point(108, 98);
-            this.btnEnter.Name = "btnEnter";
-            this.btnEnter.Size = new System.Drawing.Size(99, 43);
-            this.btnEnter.TabIndex = 0;
-            this.btnEnter.Text = "Enter";
-            this.btnEnter.UseVisualStyleBackColor = true;
-            this.btnEnter.Click += new System.EventHandler(this.btnEnter_Click);
+            this.btnLogin.Location = new System.Drawing.Point(108, 98);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(99, 43);
+            this.btnLogin.TabIndex = 0;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnEnter_Click);
             // 
-            // lblName
+            // lblEmail
             // 
-            this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(13, 13);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(130, 20);
-            this.lblName.TabIndex = 1;
-            this.lblName.Text = "Enter your name:";
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.Location = new System.Drawing.Point(13, 13);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(127, 20);
+            this.lblEmail.TabIndex = 1;
+            this.lblEmail.Text = "Enter your email:";
             // 
-            // txtName
+            // txtEmail
             // 
-            this.txtName.Location = new System.Drawing.Point(153, 10);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(168, 26);
-            this.txtName.TabIndex = 3;
+            this.txtEmail.Location = new System.Drawing.Point(146, 10);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(175, 26);
+            this.txtEmail.TabIndex = 3;
             // 
-            // lblContact
+            // lblPassword
             // 
-            this.lblContact.AutoSize = true;
-            this.lblContact.Location = new System.Drawing.Point(13, 59);
-            this.lblContact.Name = "lblContact";
-            this.lblContact.Size = new System.Drawing.Size(172, 20);
-            this.lblContact.TabIndex = 4;
-            this.lblContact.Text = "Enter Contact Number:";
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.Location = new System.Drawing.Point(13, 59);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(158, 20);
+            this.lblPassword.TabIndex = 4;
+            this.lblPassword.Text = "Enter your password:";
             // 
-            // txtContact
+            // txtPassword
             // 
-            this.txtContact.Location = new System.Drawing.Point(191, 56);
-            this.txtContact.Name = "txtContact";
-            this.txtContact.Size = new System.Drawing.Size(130, 26);
-            this.txtContact.TabIndex = 5;
+            this.txtPassword.Location = new System.Drawing.Point(177, 56);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(144, 26);
+            this.txtPassword.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(339, 157);
-            this.Controls.Add(this.txtContact);
-            this.Controls.Add(this.lblContact);
-            this.Controls.Add(this.txtName);
-            this.Controls.Add(this.lblName);
-            this.Controls.Add(this.btnEnter);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.lblPassword);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.lblEmail);
+            this.Controls.Add(this.btnLogin);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -96,11 +96,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnEnter;
-        private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.TextBox txtName;
-        private System.Windows.Forms.Label lblContact;
-        private System.Windows.Forms.TextBox txtContact;
+        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Label lblEmail;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label lblPassword;
+        private System.Windows.Forms.TextBox txtPassword;
     }
 }
 

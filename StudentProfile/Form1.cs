@@ -19,9 +19,14 @@ namespace StudentProfile
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
-            string name = txtName.Text;
-            string contact = txtContact.Text;
-            MessageBox.Show($"Name: {name}\nContact: {contact}", "Student Profile");
+            if (txtEmail.Text == "student@school.edu" && txtPassword.Text == "Password")
+            {
+                MessageBox.Show("Log in successful!");
+            }
+            else
+            {
+                MessageBox.Show("Incorrect email or password.");
+            }
         }
     }
 }
